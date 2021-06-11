@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  cobraapp:
+    build: .
+    container_name: cobraapp
+    volumes:
+      - .:/go/src/
