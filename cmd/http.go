@@ -34,6 +34,10 @@ var httpCmd = &cobra.Command{
 
 func init() {
 	rootCmd.AddCommand(httpCmd)
+	//port
+	//p - Descrição curta
+	//:4040 -- Valor Padrão
+	//
 	httpCmd.Flags().StringVarP(&port,"port","p",":4040","Port to be used on HTTP Server")
 	// Here you will define your flags and configuration settings.
 

@@ -1,5 +1,5 @@
 package app
-
+//Supondo que este arquvi seja a aplicação para ser executada
 type Calc struct {
 	A float64
 	B float64
